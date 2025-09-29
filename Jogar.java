@@ -1,7 +1,7 @@
-public class jogoController {
+public class Jogar {
     
 
-    public Resultado jogar(Mao jogador1, Mao jogador2){
+    public Resultado ResultadoDoJogo(Mao jogador1, Mao jogador2){
         if(jogador1.gesto.ganha.contains(jogador2.gesto)){
             return Resultado.GANADOR;
     }
